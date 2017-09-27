@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<title>Personal Portfolio Webpage</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<script src="https://use.fontawesome.com/48555f531a.js"></script>
+	<!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="PersonalPortfolio.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- NAVBAR -->
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><i class="fa fa-spinner logo" aria-hidden="true"></i> SPINN <i class="fa fa-spinner logo" aria-hidden="true"></i></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#" id="linkAbout">About</a></li>
+	        <li><a href="#" id="linkPortfolio">Portfolio</a></li>
+	        <li><a href="#" id="linkContact">Contact</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container -->
+	</nav>
+
+<!-- section "ABOUT" -->
+
+	<div class="container"> <!-- container -->
+		<section id="about">
+			<div class="jumbotron">
+				<div class="row">
+					<div class="col-sm-6 col-lg-6">
+						<a href="#" class="thumbnail">
+				      <img class="img-thumbnail" src="photo1.jpg" alt="Photo of the author's page">
+				    </a>	
+					</div>
+					<div class="col-sm-6 col-lg-6">
+						<h2 id="welcome">Welcome to my page!</h2>
+						<br>
+					  <h3>Full Stack Developer</h3>
+					  <hr id="hr">
+					  <h4>Experienced programmer with wide variety of technologies:</h4>
+					  <ul>
+			  			<li>Java Script</li>
+			  			<li>Java</li>
+			  			<li>HTML</li>
+			  			<li>CSS</li>
+			  			<li>Bootstrap</li>
+			  			<li>Node.js / Express</li>
+
+			  			<li>Git</li>
+					  </ul>
+				  </div>
+			  </div>
+			</div>		
+		</section>
+
+		<!-- section "PORTFOLIO" -->
+		<section id="portfolio">
+			<div class="page-header">
+  			<h1 id="H1portfolio"><i class="fa fa-book" aria-hidden="true"></i> Portfolio</h1>
+			</div>
+			<div class="row" id="row1">
+			  <div class="col-sm-12 col-md-4">
+			    <a href="#" class="thumbnail">
+			      <img src="TributePage-Lemaitre.png" alt="Tribute Page-Georges Lemaitre">
+			    </a>
+			  </div>
+			  <div class="col-sm-12 col-md-4">
+			    <a href="#" class="thumbnail">
+			      <img src="PersonalPortfolio.png" alt="Personal Portfolio Webpage">
+			    </a>
+			  </div>
+			  <div class="col-sm-12 col-md-4">
+			    <a href="#" class="thumbnail">
+			      <img src="http://ifixyourcomputernow.com/images/Portfolio01.png" alt="...">
+			    </a>
+			  </div>
+	  	</div>
+		  <div class="row" id="row2">
+			  <div class="col-sm-12 col-md-4">
+			    <a href="#" class="thumbnail">
+			      <img src="http://ifixyourcomputernow.com/images/Portfolio01.png" alt="...">
+			    </a>
+			  </div>
+			  <div class="col-sm-12 col-md-4">
+			    <a href="#" class="thumbnail">
+			      <img src="http://ifixyourcomputernow.com/images/Portfolio01.png" alt="...">
+			    </a>
+			  </div>
+			  <div class="col-sm-12 col-md-4">
+			    <a href="#" class="thumbnail">
+			      <img src="http://ifixyourcomputernow.com/images/Portfolio01.png" alt="...">
+			    </a>
+			  </div>
+			</div>
+		</section>
+
+		<!-- section "CONTACT" -->
+		<section id="contact">
+			<div class="page-header">
+  			<h1 id="contactH1"><i class="fa fa-envelope-open" aria-hidden="true"></i> Contact Me</h1>
+			</div>
+			<!-- <div class="container"> -->
+			<div class="jumbotron">
+				<h3 id="message">You have a professional or non-professional topic to discuss?
+				<p>Use the contact form below and write me. I will answer you asap!</h3> 
+				<hr>
+				<form> <!-- FORM -->
+					<div class="row">
+						<div class="col-sm-6 col-lg-6">
+							<div class="input-group">
+							  <span class="input-group-addon glyphicon glyphicon-user leftLabbel" id="name"></span>
+							  <input type="text" class="form-control" placeholder="first name / last name" aria-describedby="name" required="Name is required">
+							</div>
+							<div class="input-group">
+							  <span class="input-group-addon glyphicon glyphicon-envelope leftLabbel" id="email"></span>
+							  <input type="email" class="form-control" placeholder="e-mail address" aria-describedby="email" required="e-mail address is required">
+							</div>
+							<div class="input-group">
+							  <span class="input-group-addon glyphicon glyphicon-earphone leftLabbel" id="phone number"></span>
+							  <input type="tel" class="form-control" placeholder="phone number" aria-describedby="phone number">
+							</div>
+
+						</div> <!-- COL -->	
+						<div class="col-sm-6 col-lg-6">
+							<div class="input-group input-group-lg">
+							  <span class="input-group-addon glyphicon glyphicon-comment leftLabbel" id="text-area"></span>
+							  <p>
+							  <textarea class="form-control" placeholder="your message ..." aria-describedby="text-area" cols="10" rows="6" required="write your message!"></textarea> 
+							</p>
+							</div>
+				  	</div>
+			  	</div>	<!-- / ROW -->
+			  	<div class="row" id="buttonRow">
+			  		<div class="col-xs-4 col-lg-4 btnDiv"></div>
+			  		<div class="col-xs-4 col-lg-4 btnDiv">
+							<div class="input-group input-group-lg">
+							  <span class="input-group-btn">
+							  	<button class="form-control" id="button">SEND</button>
+							  </span>
+							</div>  
+						</div>
+						<div class="col-xs-4 col-lg-4 btnDiv"></div>			
+					</div>	<!-- / ROW -->
+			  </form> <!-- / FORM -->
+			  <hr>
+			  <h3>You can contact me via Social media as well!</h3>
+			  <div class="row">
+			  	<div class="col-xs-3 col-lg-3 social"></div>
+				  <div class="col-xs-2 col-lg-2 social">
+				  	<a href="https://www.linkedin.com/in/radek-kapiczowski" class="only-icon" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true">   </i></a>
+				  </div>
+				  <div class="col-xs-2 col-lg-2 social">
+				  	<a href="https://github.com/radekk007" class="only-icon" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+				  </div> 
+				  <div class="col-xs-2 col-lg-2 social">
+				  	<a href="https://www.freecodecamp.org/radekk007" class="only-icon" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+				  </div>
+				  <div class="col-xs-3 col-lg-3 social"></div>
+			  </div>
+		  </div>		<!-- JUMBOTRON -->
+		</section>			
+	</div>  <!-- /.container -->
+<div class="page-footer">
+	<div class="container">
+		<p id="pFooter"> &copy; 2017 Made by Radek Kapiczowski, SPINN inc.</p>
+	</div>
+</div>
+
+	<script
+	  type="text/javascript"
+	  src="https://code.jquery.com/jquery-3.2.1.js"
+	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	  crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" 
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+	<script type="text/javascript" src="PersonalPortfolio.js"></script>
+
+</body>
+</html>

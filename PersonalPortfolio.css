@@ -1,0 +1,135 @@
+body {
+	padding-top: 70px;
+	font-family: "Lato", sans-serif;
+	background: url(https://source.unsplash.com/OqtafYT5kTw) no-repeat 0px 0px;
+	background-size: cover;
+	background-position: center;
+	color: #0A1B39;
+}
+
+.navbar>.container .navbar-brand {
+	color: white;
+	font-family: 'Pacifico', cursive;
+	color: #A37C9D;
+	height: 57px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+	font-weight: 700;
+}
+
+.navbar-inverse {
+	background-color: #28243D;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #75747A;
+	transition-delay: 0.05s;
+}
+
+.jumbotron {
+	background-color: #75747A;
+}
+
+ul {
+	font-weight: 700; 
+}
+
+.thumbnail {
+	background-color: #75747A;
+	border: none;
+}
+
+.img-thumbnail {
+	max-height: 350px;
+	background-color: #0C131F;
+}
+
+#hr {
+	max-width: 465px;
+	-webkit-margin-start: 0em;;
+}
+
+h2 {
+	color: #110D20;
+	font-weight: 700;
+}
+
+.page-header, .page-footer {
+	background-color: #3E444E;
+	color: #A37C9D;
+	margin-top: 10px;
+	border-color: #3E444E;
+	border-radius: 6px;
+}
+
+#H1portfolio, #contactH1 {
+	padding-top: 1.5%;
+	padding-left: 1.5%;
+
+}
+
+.page-footer {
+	background-color: #28243D;
+	border-top-color: #3E444E;
+	padding-bottom: 20px;
+}
+
+.input-group-btn:first-child>.btn, .input-group-btn:last-child>.button-group>.btn {
+	background-color: #0A1B39;
+	border-color: #0A1B39;
+	border-radius: 6px;
+}
+
+#contact h3, .social, h4 {
+	text-align: center;
+}
+
+.input-group {
+	margin-bottom: 15px;
+}
+
+.glyphicon {
+	position: unset;
+}
+
+#button {
+	background-color: #0A1B39;
+	border-color: #0A1B39;
+	border-radius: 6px;
+	color: #A37C9D;
+	width: 100%;
+	font-weight: 700;
+}
+
+#message {
+	margin-top: 0px;
+}
+
+.input-group-addon, .input-group-lg > .input-group-addon {
+	padding: 6px 12px;
+	font-size: 16px;
+}
+
+.fa {
+	color: #150C3B;
+}
+
+.logo, .fa .fa-spinner {
+	color: #A37C9D;
+	vertical-align: middle;
+	font-size: 35px;
+}
+
+.only-icon {
+	font-size: 55px;
+}
+
+#pFooter {
+	margin: 20px 0px 0px 0px;
+}
+
+#portfolio, #contact {
+	padding-top: 20px;
+}
